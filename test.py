@@ -1,3 +1,4 @@
+#네명의 국어, 수학 성적을 입력받아 리스트로 정리하고, 홀수값만 딕셔너리로 정리
 # 빈 딕셔너리 생성
 score_dict = {}
 
@@ -10,7 +11,7 @@ for i in range(4):
 
     # 홀수의 값만 딕셔너리에 추가
     for score in score_list:
-        if score % 2 == 0: #1이면 홀수고 0으로 바꾸면 모두 나옴
+        if score % 2 == 0: # ==0은 짝수, !=는 홀수
             if name in score_dict:
                 score_dict[name].append(score)
             else:
