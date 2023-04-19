@@ -1,3 +1,4 @@
+# for문과 그 안에 if문 사용. n개의 정수 입력받고 list요소로 집어넣은 후 index를 사용해 홀수&짝수번 정수의 합
 # 10개의 정수값을 받아들인다
 numbers = []
 for i in range(10):
